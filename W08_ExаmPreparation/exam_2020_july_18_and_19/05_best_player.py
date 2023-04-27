@@ -10,7 +10,7 @@ while best_score < 10:
     if count_goals > best_score:
         best_player = player_name
         best_score = count_goals
-    elif count_goals >= 3:
+    if count_goals >= 3:
         is_hat_trick = True
     else:
         is_hat_trick = False
