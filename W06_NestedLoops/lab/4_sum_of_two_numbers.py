@@ -15,3 +15,4 @@ for first in range(start, end + 1):
         break
 else:
     print(f"{counter} combinations - neither equals {magic_number}")
+
